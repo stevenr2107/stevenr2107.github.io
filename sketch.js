@@ -4,6 +4,7 @@ function setup() {
   zBereich = createCanvas(windowWidth, windowHeight);
   zBereich.position(0,0); // Links oben
   zBereich.style("z-index",'-1'); //Verschiebung auf der z-Achse
+  richtung = 0
 }
 
 function draw() {
